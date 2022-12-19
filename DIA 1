@@ -1,0 +1,14 @@
+//Mi primer programa en C++
+#include<stdio.h>
+
+main(){
+	    printf("Hola mundo");   
+}
+
+//Mi primer programa en C++
+#include<iostream>
+using namespace  std;
+int main(){
+	scout<<"Hola mundo";	
+	return 0;
+}
