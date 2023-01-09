@@ -1,0 +1,25 @@
+#include<iostream>   //FOR
+
+using namespace std;
+
+int main(){
+	int cont;
+	for(cont=1; cont<=4; cont++){
+		cout<<"\nEstoy contento "<<cont<<endl;
+	}
+	return 0;
+}
+
+
+#include<iostream>   //Tabla de multiplicar
+
+using namespace std;
+
+int main(){
+	int cont, n;
+	cout<<"Dime el numero de la tabla: "; cin>>n;
+	for(cont=1; cont<=10; cont++){
+		cout<<n<<" * " <<cont<<" = "<< cont*n<<endl;
+	}
+	return 0;
+}
