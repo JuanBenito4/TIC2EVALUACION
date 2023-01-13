@@ -1,0 +1,52 @@
+#include<iostream>
+#include<stdio.h>
+
+using namespace std;
+
+int main(){
+int x=3;
+printf("%d",x);
+
+return 0;
+}
+
+#include<iostream>
+#include<stdio.h>
+
+using namespace std;
+
+int main(){
+float x=3.2;
+int y=5;
+printf("numero1 = %f, numero2 = %d ",x , y);
+
+return 0;
+}
+
+
+#include<iostream>
+#include<stdio.h>
+
+using namespace std;
+
+int main(){
+int x=3, *px=&x;
+printf("x=%d\n",x);
+printf("px=%x", px);
+
+return 0;
+}
+
+
+
+#include<iostream>
+#include<stdio.h>
+
+using namespace std;
+
+int main(){
+char letra='A', *p_letra=&letra;
+printf("letra = %c\n", letra);
+printf("pletra=%x", p_letra);
+return 0;
+}
